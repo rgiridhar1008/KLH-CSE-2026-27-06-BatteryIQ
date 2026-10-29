@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node / Frontend dependencies & builds
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+package-lock.json
+
+# Model weights & large binaries (> 100MB)
+*.gguf
+*.bin
+*.onnx
+models/*.gguf
+models/.cache/
+
+# Testing & caches
+.pytest_cache/
+.pytest_tmp/
+.coverage
+htmlcov/
+
+# Logs & temporary runtime files
+*.log
+*.err
+scratch_test_windows.py
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

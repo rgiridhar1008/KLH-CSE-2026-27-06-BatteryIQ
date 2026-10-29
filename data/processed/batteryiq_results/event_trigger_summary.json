@@ -1,0 +1,96 @@
+{
+  "files_processed": 10,
+  "batteries": 2,
+  "baseline_strategy": "initial",
+  "baseline_samples_requested": 1000,
+  "window_size": 50,
+  "window_step": 50,
+  "trigger_threshold": 1.0,
+  "min_trigger_windows": 1,
+  "cooldown_windows": 0,
+  "weights": {
+    "voltage": 1.0,
+    "current": 1.0,
+    "temperature": 1.0
+  },
+  "baselines": [
+    {
+      "directory": "real_world_02-03",
+      "battery_id": "01",
+      "requested_samples": 1000,
+      "used_samples": 1000,
+      "features": {
+        "voltage_mean": 3.3160570227875006,
+        "voltage_std": 0.0006709767884540973,
+        "voltage_spread": 0.0018869974000000104,
+        "voltage_rate": 0.00019094225475475764,
+        "current_mean": -42.85325220800001,
+        "current_std": 1.7425366754749505,
+        "current_rate": 1.2150239539539538,
+        "temperature_mean": 31.96525,
+        "temperature_std": 0.2707390226441235,
+        "temperature_spread": 0.754,
+        "temperature_rate": 0.005880880880880881
+      },
+      "scales": {
+        "voltage_mean": 0.02814026409252852,
+        "voltage_std": 0.00038741016772728977,
+        "voltage_spread": 0.0014818587000003914,
+        "voltage_rate": 0.0005165962906830019,
+        "current_mean": 1.7425366754749505,
+        "current_std": 1.7425366754749505,
+        "current_rate": 1.5931590074467856,
+        "temperature_mean": 1.1042157567703876,
+        "temperature_std": 0.16263573290548677,
+        "temperature_spread": 0.43067853440820564,
+        "temperature_rate": 0.028184555948583677
+      }
+    },
+    {
+      "directory": "real_world_02-03",
+      "battery_id": "02",
+      "requested_samples": 1000,
+      "used_samples": 1000,
+      "features": {
+        "voltage_mean": 3.3173258935625003,
+        "voltage_std": 0.0009780654328292893,
+        "voltage_spread": 0.0027939953000000284,
+        "voltage_rate": 0.0001823098723723771,
+        "current_mean": -42.85325220800001,
+        "current_std": 1.7425366754749505,
+        "current_rate": 1.2150239539539538,
+        "temperature_mean": 30.08725,
+        "temperature_std": 1.1675399688134964,
+        "temperature_spread": 2.92,
+        "temperature_rate": 0.0065065065065065065
+      },
+      "scales": {
+        "voltage_mean": 0.027826122840308207,
+        "voltage_std": 0.0001644028390191161,
+        "voltage_spread": 0.0005473261190989374,
+        "voltage_rate": 0.0005300602409327834,
+        "current_mean": 1.7425366754749505,
+        "current_std": 1.7425366754749505,
+        "current_rate": 1.5931590074467856,
+        "temperature_mean": 1.2529390198648933,
+        "temperature_std": 0.20465011903973976,
+        "temperature_spread": 0.5192301994298867,
+        "temperature_rate": 0.028324194033994735
+      }
+    }
+  ],
+  "summary": {
+    "total_windows": 760,
+    "triggered_windows": 443,
+    "skipped_windows": 317,
+    "raw_anomalous_windows": 443,
+    "inference_avoidance_percent": 41.71052631578947,
+    "mean_anomaly_score": 6.21720363881405,
+    "median_anomaly_score": 6.111324402150787,
+    "maximum_anomaly_score": 19.154387404121604,
+    "ddp_input_rows": 22110,
+    "ddp_retained_rows": 1429,
+    "ddp_retention_percent": 6.463138851198552,
+    "ddp_compression_ratio": 15.472358292512247
+  }
+}

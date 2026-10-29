@@ -1,0 +1,41 @@
+{
+  "csv_files": 2,
+  "total_input_rows": 8000,
+  "total_windows": 160,
+  "suspicious_windows": 33,
+  "ai_invocations": 33,
+  "ai_skipped": 127,
+  "inference_avoidance_percent": 79.375,
+  "risk_state_counts": {
+    "NORMAL": 127,
+    "WARNING": 33
+  },
+  "total_retained_ddp_rows": 74,
+  "overall_retention_percentage": 0.925,
+  "files": [
+    {
+      "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+      "input_rows": 4000,
+      "total_windows": 80,
+      "suspicious_windows": 24,
+      "ai_invocations": 24,
+      "ai_skipped": 56,
+      "inference_avoidance_percent": 70.0,
+      "retained_ddp_rows": 56,
+      "retention_percentage": 1.4
+    },
+    {
+      "source_file": "real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv",
+      "input_rows": 4000,
+      "total_windows": 80,
+      "suspicious_windows": 9,
+      "ai_invocations": 9,
+      "ai_skipped": 71,
+      "inference_avoidance_percent": 88.75,
+      "retained_ddp_rows": 18,
+      "retention_percentage": 0.45
+    }
+  ],
+  "placeholder_diagnosis": true,
+  "research_policy_simulation_only": true
+}

@@ -1,0 +1,3 @@
+directory,battery_id,total_windows,triggered_windows,skipped_windows,inference_avoidance_percent,mean_anomaly_score,median_anomaly_score,maximum_anomaly_score,baseline_samples_used,ddp_input_rows,ddp_retained_rows,ddp_retention_percent,ddp_compression_ratio
+real_world_02-03,01,620,353,267,43.064516129032256,6.178428346538458,6.111324402150787,19.154387404121604,1000,17610,1145,6.50198750709824,15.379912663755459
+real_world_02-03,02,140,90,50,35.714285714285715,6.388922790320245,6.153356803921005,16.32818221328273,1000,4500,284,6.311111111111111,15.845070422535212

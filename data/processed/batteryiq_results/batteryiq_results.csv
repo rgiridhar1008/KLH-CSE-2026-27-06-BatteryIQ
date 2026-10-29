@@ -1,0 +1,161 @@
+source_file,battery_id,cell_range,start_sample,end_sample,screening_score,suspicious,triggered_features,ai_status,fault_type,severity,confidence,risk_state,risk_action
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,0,49,1.7559960799999998,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,50,99,0.1240039999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,100,149,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,150,199,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,200,249,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,250,299,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,300,349,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,350,399,0.13200199999999995,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,400,449,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,450,499,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,500,549,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,550,599,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,600,649,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,650,699,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,700,749,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,750,799,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,800,849,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,850,899,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,900,949,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,950,999,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1000,1049,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1050,1099,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1100,1149,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1150,1199,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1200,1249,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1250,1299,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1300,1349,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1350,1399,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1400,1449,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1450,1499,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1500,1549,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1550,1599,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1600,1649,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1650,1699,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1700,1749,0.15200192000000015,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1750,1799,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1800,1849,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1850,1899,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1900,1949,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1950,1999,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2000,2049,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2050,2099,0.2,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2100,2149,0.20000000000000462,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2150,2199,1.3000000000000078,True,voltage_spread,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2200,2249,7.400000000000007,True,voltage_spread|voltage_spread_change|current_change|current_rate|voltage_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2250,2299,2.612002,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2300,2349,2.471992,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2350,2399,3.2120020799999995,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2400,2449,3.1800000799999997,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2450,2499,3.08399408,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2500,2549,2.9759960000000003,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2550,2599,3.088008,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2600,2649,2.86000008,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2650,2699,2.615996,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2700,2749,3.5200000399999998,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2750,2799,3.4,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2800,2849,2.852002,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2850,2899,3.636006,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2900,2949,3.2040040399999996,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2950,2999,3.73600596,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3000,3049,3.1,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3050,3099,2.8079981599999995,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3100,3149,3.0440039999999997,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3150,3199,3.16799816,True,current_change|current_rate|voltage_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3200,3249,3.424004,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3250,3299,6.12000004,True,current_change|current_rate|voltage_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3300,3349,0.4240039999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3350,3399,0.4319920000000002,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3400,3449,0.43200199999999994,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3450,3499,0.4080079999999998,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3500,3549,0.4160059999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3550,3599,0.45200199999999996,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3600,3649,0.4759960000000001,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3650,3699,0.39600599999999986,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3700,3749,0.4440039999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3750,3799,0.54,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3800,3849,0.48799800000000004,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3850,3899,0.39599600000000007,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3900,3949,0.5079980000000001,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3950,3999,0.532002,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,0,49,1.88,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,50,99,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,100,149,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,150,199,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,200,249,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,250,299,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,300,349,0.28,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,350,399,0.18,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,400,449,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,450,499,0.38799800000000007,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,500,549,0.38400384000000004,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,550,599,0.407998,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,600,649,0.407998,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,650,699,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,700,749,0.3640039200000001,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,750,799,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,800,849,0.34,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,850,899,0.42799807999999984,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,900,949,0.44,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,950,999,0.3640039999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1000,1049,0.40400384,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1050,1099,0.4040039200000001,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1100,1149,0.3440039999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1150,1199,0.42,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1200,1249,0.4279980800000001,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1250,1299,0.34399416000000005,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1300,1349,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1350,1399,0.42799800000000005,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1400,1449,0.4039940799999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1450,1499,0.44799800000000006,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1500,1549,0.42399416,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1550,1599,0.45600584,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1600,1649,0.41600583999999996,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1650,1699,0.36799800000000005,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1700,1749,0.46,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1750,1799,0.4160059200000001,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1800,1849,0.45599600000000007,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1850,1899,0.43200192000000015,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1900,1949,0.43600592000000005,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,1950,1999,0.41200192000000013,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2000,2049,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2050,2099,0.33600584,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2100,2149,0.35599608000000005,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2150,2199,0.34,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2200,2249,8.50000500000001,True,voltage_spread_change|current_change|current_rate|voltage_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2250,2299,0.772002,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2300,2349,0.43200199999999994,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2350,2399,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2400,2449,0.707998,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2450,2499,0.692002,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2500,2549,1.0159960000000001,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2550,2599,0.827998,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2600,2649,0.5720019999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2650,2699,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2700,2749,0.675996,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2750,2799,0.824004,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2800,2849,1.0120019999999998,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2850,2899,0.727998,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2900,2949,4.187998,True,current_change|current_rate|voltage_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,2950,2999,2.44,True,current_change|current_rate|voltage_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3000,3049,1.2279980000000001,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3050,3099,0.9199999200000002,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3100,3149,0.44,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3150,3199,0.52,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3200,3249,0.3840039999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3250,3299,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3300,3349,0.43200199999999994,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3350,3399,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3400,3449,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3450,3499,0.3333333333333333,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3500,3549,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3550,3599,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3600,3649,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3650,3699,0.5560059999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3700,3749,0.727998,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3750,3799,0.4,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3800,3849,4.79999499999999,True,current_change|current_rate|temperature_change|temperature_rate|voltage_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3850,3899,0.947998,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3900,3949,1.4039940000000002,True,current_change|current_rate,AI_REQUIRED,PLACEHOLDER_ANOMALY,MEDIUM,0.5,WARNING,Placeholder warning: review the triggered window.
+real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv,01,001-008,3950,3999,0.9720019999999999,False,,AI_SKIPPED,,,,NORMAL,No intervention; continue monitoring.

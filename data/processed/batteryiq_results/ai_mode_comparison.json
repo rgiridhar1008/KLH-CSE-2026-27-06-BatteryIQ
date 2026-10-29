@@ -1,0 +1,43 @@
+{
+  "total_windows": 760,
+  "always_on_ai_calls": 760,
+  "event_triggered_ai_calls": 443,
+  "ai_calls_avoided": 317,
+  "inference_avoidance_percent": 41.71052631578947,
+  "always_on_ddp_calls": 760,
+  "event_triggered_ddp_calls": 443,
+  "ddp_calls_avoided": 317,
+  "total_input_rows": 37960,
+  "event_triggered_ddp_input_rows": 22110,
+  "event_triggered_ddp_retained_rows": 1429,
+  "event_triggered_ddp_retention_percent": 6.463138851198552,
+  "always_on_level2_score": {
+    "mean": 5.366536137229465,
+    "median": 5.2434748214665445,
+    "p95": 11.58092421547958
+  },
+  "event_triggered_level2_score": {
+    "mean": 8.742336208530203,
+    "median": 10.089888757758708,
+    "p95": 12.442558141099013
+  },
+  "level2_anomaly_windows": 449,
+  "level2_anomalies_reached_by_event_trigger": 443,
+  "level2_anomaly_coverage_percent": 98.66369710467706,
+  "cost_model": {
+    "cost_per_ai_call": 1.0,
+    "cost_per_ddp_row": 0.001,
+    "label": "ESTIMATED RELATIVE COMPUTATIONAL COST"
+  },
+  "always_on_estimated_cost": 797.96,
+  "event_triggered_estimated_cost": 465.11,
+  "estimated_cost_reduction_percent": 41.71261717379317,
+  "interpretation": "Level-2 anomaly coverage is statistical-detector coverage, not ground-truth fault recall.",
+  "level2_model": "STATISTICAL BASELINE DIAGNOSTIC MODEL",
+  "level2_score_bands": {
+    "anomaly_threshold": 1.0,
+    "medium_threshold": 3.0,
+    "high_threshold": 6.0,
+    "severity_label": "diagnostic anomaly severity"
+  }
+}

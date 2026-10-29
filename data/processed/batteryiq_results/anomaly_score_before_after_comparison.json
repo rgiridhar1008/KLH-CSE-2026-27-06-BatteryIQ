@@ -1,0 +1,72 @@
+{
+  "files_processed": 10,
+  "windows": 760,
+  "legacy_score": {
+    "maximum": 4959.013111277732,
+    "mean": 68.3117068847442,
+    "median": 9.563321213595906,
+    "p95": 351.9120008476762,
+    "p99": 832.0441572874636
+  },
+  "corrected_score": {
+    "maximum": 19.154387404121604,
+    "mean": 6.21720363881405,
+    "median": 6.111324402150787,
+    "p95": 13.52655532820042,
+    "p99": 16.59976627731607
+  },
+  "legacy_component_distributions": {
+    "legacy_deviation_voltage": {
+      "maximum": 48.07265358152224,
+      "mean": 4.330757715489959,
+      "median": 3.5112166754194445,
+      "p95": 9.051993027385288,
+      "p99": 37.801546320078835
+    },
+    "legacy_deviation_voltage_spread": {
+      "maximum": 19805.982699999942,
+      "mean": 246.20705296792673,
+      "median": 0.7875146260569207,
+      "p95": 1347.0668000000417,
+      "p99": 3302.440040000057
+    },
+    "legacy_deviation_current": {
+      "maximum": 57.23559550079059,
+      "mean": 20.192295339704884,
+      "median": 20.238071443689293,
+      "p95": 46.22355835677578,
+      "p99": 49.16588755798161
+    },
+    "legacy_deviation_temperature": {
+      "maximum": 7.304697588026343,
+      "mean": 2.516721515855235,
+      "median": 1.855240216665608,
+      "p95": 6.16673608831616,
+      "p99": 6.903240532100171
+    }
+  },
+  "corrected_component_distributions": {
+    "corrected_deviation_voltage": {
+      "maximum": 28.518999937423082,
+      "mean": 1.9064751835950504,
+      "median": 1.0603166996752391,
+      "p95": 4.271098376024398,
+      "p99": 23.220813339200326
+    },
+    "corrected_deviation_current": {
+      "maximum": 44.07115724496574,
+      "mean": 15.574546156244487,
+      "median": 15.690504926624651,
+      "p95": 35.910476317185854,
+      "p99": 38.166495835662545
+    },
+    "corrected_deviation_temperature": {
+      "maximum": 3.3208960024353957,
+      "mean": 1.170589576602614,
+      "median": 1.0352303200641342,
+      "p95": 2.586760292292632,
+      "p99": 2.9071412908808454
+    }
+  },
+  "interpretation": "This is a numerical comparison only. Lower scores do not by themselves establish better detection."
+}

@@ -1,0 +1,18 @@
+BatteryIQ project structure
+
+src/ddp_downsampling/
+    Core DDP/downsampling Python modules copied unchanged from the uploaded files.
+
+tests/
+    Reserved for automated tests to be added during the audit/reproduction phase.
+
+data/raw/
+    Put original/raw battery CSV data here.
+
+data/processed/
+    Put generated/processed/downsampled data here.
+
+Important:
+- Source Python files were copied unchanged.
+- No DDP equations, thresholds, or project logic were modified.
+- pyproject.toml and requirements.txt were copied unchanged.

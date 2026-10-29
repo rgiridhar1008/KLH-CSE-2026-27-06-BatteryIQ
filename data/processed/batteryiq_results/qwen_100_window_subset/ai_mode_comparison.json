@@ -1,0 +1,797 @@
+{
+  "total_windows": 100,
+  "always_on_ai_calls": 100,
+  "event_triggered_ai_calls": 60,
+  "ai_calls_avoided": 40,
+  "inference_avoidance_percent": 40.0,
+  "always_on_ddp_calls": 100,
+  "event_triggered_ddp_calls": 60,
+  "ddp_calls_avoided": 40,
+  "total_input_rows": 5000,
+  "event_triggered_ddp_input_rows": 3000,
+  "event_triggered_ddp_retained_rows": 176,
+  "event_triggered_ddp_retention_percent": 5.866666666666666,
+  "always_on_level2_score": {
+    "mean": null,
+    "median": null,
+    "p95": null
+  },
+  "event_triggered_level2_score": {
+    "mean": null,
+    "median": null,
+    "p95": null
+  },
+  "level2_anomaly_windows": 99,
+  "level2_anomalies_reached_by_event_trigger": 58,
+  "level2_anomaly_coverage_percent": 58.58585858585859,
+  "cost_model": {
+    "cost_per_ai_call": 1.0,
+    "cost_per_ddp_row": 0.001,
+    "label": "ESTIMATED RELATIVE COMPUTATIONAL COST"
+  },
+  "always_on_estimated_cost": 105.0,
+  "event_triggered_estimated_cost": 63.0,
+  "estimated_cost_reduction_percent": 40.0,
+  "interpretation": "Qwen output is descriptive baseline-relative diagnostic anomaly interpretation, not fault recall or physical severity.",
+  "diagnostic_timing": {
+    "model_load_seconds": 2.8396314000000302,
+    "number_of_model_calls": 160,
+    "total_inference_seconds": 4581.112713099996,
+    "average_inference_seconds": 28.631954456874972,
+    "json_parsing_successes": 157,
+    "json_parsing_failures": 3
+  },
+  "level2_model": "LOCAL QWEN2.5-1.5B-INSTRUCT GGUF DIAGNOSTIC MODEL",
+  "level2_output_schema": {
+    "anomaly_level": "LOW|MEDIUM|HIGH",
+    "reason": "...",
+    "evidence": [
+      "..."
+    ]
+  },
+  "qwen_subset": {
+    "label": "100-window Qwen subset experiment",
+    "available_evaluation_windows": 760,
+    "selected_qwen_windows": 100,
+    "unique_selected_window_identities": 100,
+    "same_window_identities_in_both_modes": true,
+    "selected_window_identities": [
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1000,
+        "end_sample": 1049
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1050,
+        "end_sample": 1099
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1100,
+        "end_sample": 1149
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1150,
+        "end_sample": 1199
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1200,
+        "end_sample": 1249
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1250,
+        "end_sample": 1299
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1300,
+        "end_sample": 1349
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1350,
+        "end_sample": 1399
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1400,
+        "end_sample": 1449
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1450,
+        "end_sample": 1499
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1500,
+        "end_sample": 1549
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1550,
+        "end_sample": 1599
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1600,
+        "end_sample": 1649
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1650,
+        "end_sample": 1699
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1700,
+        "end_sample": 1749
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1750,
+        "end_sample": 1799
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1800,
+        "end_sample": 1849
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1850,
+        "end_sample": 1899
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1900,
+        "end_sample": 1949
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 1950,
+        "end_sample": 1999
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2000,
+        "end_sample": 2049
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2050,
+        "end_sample": 2099
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2100,
+        "end_sample": 2149
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2150,
+        "end_sample": 2199
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2200,
+        "end_sample": 2249
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2250,
+        "end_sample": 2299
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2300,
+        "end_sample": 2349
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2350,
+        "end_sample": 2399
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2400,
+        "end_sample": 2449
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2450,
+        "end_sample": 2499
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2500,
+        "end_sample": 2549
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2550,
+        "end_sample": 2599
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2600,
+        "end_sample": 2649
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2650,
+        "end_sample": 2699
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2700,
+        "end_sample": 2749
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2750,
+        "end_sample": 2799
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2800,
+        "end_sample": 2849
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2850,
+        "end_sample": 2899
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2900,
+        "end_sample": 2949
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 2950,
+        "end_sample": 2999
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3000,
+        "end_sample": 3049
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3050,
+        "end_sample": 3099
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3100,
+        "end_sample": 3149
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3150,
+        "end_sample": 3199
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3200,
+        "end_sample": 3249
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3250,
+        "end_sample": 3299
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3300,
+        "end_sample": 3349
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3350,
+        "end_sample": 3399
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3400,
+        "end_sample": 3449
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3450,
+        "end_sample": 3499
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3500,
+        "end_sample": 3549
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3550,
+        "end_sample": 3599
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3600,
+        "end_sample": 3649
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3650,
+        "end_sample": 3699
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3700,
+        "end_sample": 3749
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3750,
+        "end_sample": 3799
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3800,
+        "end_sample": 3849
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3850,
+        "end_sample": 3899
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3900,
+        "end_sample": 3949
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 3950,
+        "end_sample": 3999
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4000,
+        "end_sample": 4049
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4050,
+        "end_sample": 4099
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4100,
+        "end_sample": 4149
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4150,
+        "end_sample": 4199
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4200,
+        "end_sample": 4249
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4250,
+        "end_sample": 4299
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4300,
+        "end_sample": 4349
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4350,
+        "end_sample": 4399
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4400,
+        "end_sample": 4449
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4450,
+        "end_sample": 4499
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4500,
+        "end_sample": 4549
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4550,
+        "end_sample": 4599
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4600,
+        "end_sample": 4649
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4650,
+        "end_sample": 4699
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4700,
+        "end_sample": 4749
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4750,
+        "end_sample": 4799
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4800,
+        "end_sample": 4849
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4850,
+        "end_sample": 4899
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4900,
+        "end_sample": 4949
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 4950,
+        "end_sample": 4999
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5000,
+        "end_sample": 5049
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5050,
+        "end_sample": 5099
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5100,
+        "end_sample": 5149
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5150,
+        "end_sample": 5199
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5200,
+        "end_sample": 5249
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5250,
+        "end_sample": 5299
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5300,
+        "end_sample": 5349
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5350,
+        "end_sample": 5399
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5400,
+        "end_sample": 5449
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5450,
+        "end_sample": 5499
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5500,
+        "end_sample": 5549
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5550,
+        "end_sample": 5599
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5600,
+        "end_sample": 5649
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5650,
+        "end_sample": 5699
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5700,
+        "end_sample": 5749
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5750,
+        "end_sample": 5799
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5800,
+        "end_sample": 5849
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5850,
+        "end_sample": 5899
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5900,
+        "end_sample": 5949
+      },
+      {
+        "source_file": "real_world_02-03/battery_01_cells_001-008_t_04000-07999.csv",
+        "directory": "real_world_02-03",
+        "battery_id": "01",
+        "start_sample": 5950,
+        "end_sample": 5999
+      }
+    ]
+  },
+  "mode_metrics": {
+    "always_on": {
+      "total_evaluation_windows": 100,
+      "level2_ai_calls": 100,
+      "ddp_calls": 100,
+      "ddp_input_rows": 5000,
+      "ddp_retained_rows": 400,
+      "ddp_retention_percent": 8.0,
+      "low_count": 99,
+      "medium_count": 0,
+      "high_count": 0,
+      "json_parsing_successes": 99,
+      "json_parsing_failures": 1,
+      "total_inference_seconds": 3886.2500968999934,
+      "average_inference_seconds": 38.86250096899993,
+      "minimum_inference_seconds": 16.39913340000021,
+      "maximum_inference_seconds": 1652.8725569
+    },
+    "event_triggered": {
+      "total_evaluation_windows": 100,
+      "level2_ai_calls": 60,
+      "ddp_calls": 60,
+      "ddp_input_rows": 3000,
+      "ddp_retained_rows": 176,
+      "ddp_retention_percent": 5.866666666666666,
+      "low_count": 58,
+      "medium_count": 0,
+      "high_count": 0,
+      "json_parsing_successes": 58,
+      "json_parsing_failures": 2,
+      "total_inference_seconds": 694.8626162000023,
+      "average_inference_seconds": 11.581043603333372,
+      "minimum_inference_seconds": 6.070008700000017,
+      "maximum_inference_seconds": 40.69522749999987
+    }
+  }
+}

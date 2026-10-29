@@ -1,0 +1,24 @@
+[
+  {
+    "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+    "input_rows": 4000,
+    "total_windows": 80,
+    "suspicious_windows": 24,
+    "ai_invocations": 24,
+    "ai_skipped": 56,
+    "inference_avoidance_percent": 70.0,
+    "retained_ddp_rows": 56,
+    "retention_percentage": 1.4
+  },
+  {
+    "source_file": "real_world_05_06/battery_01_cells_001-008_t_00000-03999.csv",
+    "input_rows": 4000,
+    "total_windows": 80,
+    "suspicious_windows": 9,
+    "ai_invocations": 9,
+    "ai_skipped": 71,
+    "inference_avoidance_percent": 88.75,
+    "retained_ddp_rows": 18,
+    "retention_percentage": 0.45
+  }
+]

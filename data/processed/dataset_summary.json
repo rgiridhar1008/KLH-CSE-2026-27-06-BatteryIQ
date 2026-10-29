@@ -1,0 +1,74 @@
+{
+  "inspection_scope": {
+    "root": "data/raw",
+    "csv_files": 600,
+    "total_rows": 2229030,
+    "raw_files_modified": false,
+    "label_inference_performed": false
+  },
+  "directories": {
+    "real_world_02-03": {"files": 240, "rows": 958800, "segments_per_battery": 8, "sample_range": [0, 31959]},
+    "real_world_03_04": {"files": 270, "rows": 976830, "segments_per_battery": 9, "sample_range": [0, 32560]},
+    "real_world_05_06": {"files": 90, "rows": 293400, "segments_per_battery": 3, "sample_range": [0, 9779]}
+  },
+  "filename_pattern": "battery_<battery_id>_cells_<first_cell>-<last_cell>_t_<first_sample>-<last_sample>.csv",
+  "filename_pattern_matches": 600,
+  "filename_row_count_mismatches": 0,
+  "battery_ids": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"],
+  "cell_ranges": ["001-008", "009-016", "017-024", "025-032", "033-040", "041-048", "049-056", "057-064", "065-072", "073-080", "081-088", "089-096", "097-104", "105-112", "113-120", "121-128", "129-136", "137-144", "145-152", "153-160", "161-168", "169-176", "177-184", "185-192", "193-200", "201-208", "209-216", "217-224", "225-232", "233-240"],
+  "schema": {
+    "columns": ["vol_1", "vol_2", "vol_3", "vol_4", "vol_5", "vol_6", "vol_7", "vol_8", "temp_1", "temp_2", "temp_3", "temp_4", "temp_5", "temp_6", "temp_7", "temp_8", "cur"],
+    "dtype_all_files": "float64",
+    "voltage_columns": ["vol_1", "vol_2", "vol_3", "vol_4", "vol_5", "vol_6", "vol_7", "vol_8"],
+    "temperature_columns": ["temp_1", "temp_2", "temp_3", "temp_4", "temp_5", "temp_6", "temp_7", "temp_8"],
+    "current_column": "cur",
+    "time_or_index_columns": [],
+    "other_columns": []
+  },
+  "column_statistics": {
+    "vol_1": {"min": 3.1220002, "max": 3.551, "mean": 3.3135984050270304, "missing": 0, "unique_values": 404, "max_within_file_step": 0.2019998, "large_step_count_gt_0.1": 111},
+    "vol_2": {"min": 3.121, "max": 3.5290003, "mean": 3.3139503010568285, "missing": 0, "unique_values": 397, "max_within_file_step": 0.1780003, "large_step_count_gt_0.1": 97},
+    "vol_3": {"min": 3.118, "max": 3.5370002, "mean": 3.3138814581107923, "missing": 0, "unique_values": 407, "max_within_file_step": 0.1930002, "large_step_count_gt_0.1": 110},
+    "vol_4": {"min": 3.117, "max": 3.5660002, "mean": 3.313837585485928, "missing": 0, "unique_values": 414, "max_within_file_step": 0.2120002, "large_step_count_gt_0.1": 118},
+    "vol_5": {"min": 3.118, "max": 3.538, "mean": 3.313423459367389, "missing": 0, "unique_values": 410, "max_within_file_step": 0.1849999, "large_step_count_gt_0.1": 117},
+    "vol_6": {"min": 3.0730002, "max": 3.5490003, "mean": 3.3139822325788773, "missing": 0, "unique_values": 463, "max_within_file_step": 0.1759998, "large_step_count_gt_0.1": 117},
+    "vol_7": {"min": 3.1220002, "max": 3.5240002, "mean": 3.3139726209759837, "missing": 0, "unique_values": 397, "max_within_file_step": 0.1770001, "large_step_count_gt_0.1": 107},
+    "vol_8": {"min": 3.124, "max": 3.604, "mean": 3.3144048201502, "missing": 0, "unique_values": 464, "max_within_file_step": 0.171, "large_step_count_gt_0.1": 115},
+    "temp_1": {"min": 23.0, "max": 44.0, "mean": 31.991892437517663, "missing": 0, "unique_values": 22, "max_within_file_step": 8.0, "large_step_count_gt_5": 103},
+    "temp_2": {"min": 23.0, "max": 44.0, "mean": 32.12388034257054, "missing": 0, "unique_values": 22, "max_within_file_step": 8.0, "large_step_count_gt_5": 112},
+    "temp_3": {"min": 22.0, "max": 44.0, "mean": 32.02857879884972, "missing": 0, "unique_values": 23, "max_within_file_step": 8.0, "large_step_count_gt_5": 102},
+    "temp_4": {"min": 21.0, "max": 44.0, "mean": 31.92037702498396, "missing": 0, "unique_values": 24, "max_within_file_step": 7.0, "large_step_count_gt_5": 99},
+    "temp_5": {"min": 22.0, "max": 44.0, "mean": 31.93832608802932, "missing": 0, "unique_values": 23, "max_within_file_step": 7.0, "large_step_count_gt_5": 107},
+    "temp_6": {"min": 23.0, "max": 44.0, "mean": 31.991423623728707, "missing": 0, "unique_values": 22, "max_within_file_step": 8.0, "large_step_count_gt_5": 89},
+    "temp_7": {"min": 24.0, "max": 44.0, "mean": 32.14098374629323, "missing": 0, "unique_values": 21, "max_within_file_step": 8.0, "large_step_count_gt_5": 103},
+    "temp_8": {"min": 23.0, "max": 45.0, "mean": 32.01383651184596, "missing": 0, "unique_values": 23, "max_within_file_step": 8.0, "large_step_count_gt_5": 98},
+    "cur": {"min": -133.19995, "max": 141.40015, "mean": -0.11993989870930685, "missing": 0, "unique_values": 2357, "max_within_file_step": 153.000001, "large_step_count_gt_100": 1950}
+  },
+  "row_counts": {"4000": 510, "3960": 30, "561": 30, "1780": 30},
+  "quality": {
+    "missing_values_total": 0,
+    "constant_columns_in_files": 0,
+    "duplicate_rows_within_files_inclusive": 117538,
+    "duplicate_extra_rows_within_files": 66983,
+    "boundary_pairs_checked": 510,
+    "boundary_pairs_with_large_voltage_step": 0,
+    "boundary_pairs_with_large_temperature_step": 0,
+    "boundary_pairs_with_large_current_step": 0
+  },
+  "label_search": {
+    "matching_paths": [],
+    "label_like_columns": [],
+    "metadata_files_other_than_gitkeep": [],
+    "explicit_fault_labels_found": false,
+    "search_terms": ["fault", "failure", "anomaly", "normal", "healthy", "damaged", "severity", "class", "label", "type", "event", "condition", "ISC", "ESC", "PCF", "SDF", "ICF", "short", "circuit", "degradation"]
+  },
+  "continuity": {
+    "groups": 90,
+    "adjacent_pairs": 510,
+    "gaps": 0,
+    "overlaps": 0,
+    "safe_scope": "same directory and battery_id only",
+    "cross_directory_continuity_proven": false
+  },
+  "supervised_learning_status": "C. NO EXPLICIT FAULT LABELS AVAILABLE"
+}

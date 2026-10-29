@@ -1,0 +1,517 @@
+{
+  "experiment": {
+    "filename": "battery_05_cells_033-040_t_20000-23999.csv",
+    "total_rows": 4000,
+    "total_windows": 80,
+    "suspicious_windows": 26,
+    "selected_windows": 10,
+    "ai_calls": 10,
+    "ai_calls_avoided": 54,
+    "ai_avoidance_percent": 67.5,
+    "average_ddp_retention": 4.0,
+    "median_ddp_retention": 4.0,
+    "min_ddp_retention": 4.0,
+    "max_ddp_retention": 4.0,
+    "average_inference_time": 21.89,
+    "median_inference_time": 20.69,
+    "total_inference_time": 218.93,
+    "json_success_rate": 100.0
+  },
+  "results": [
+    {
+      "window": 37,
+      "start_row": 1850,
+      "end_row": 1899,
+      "level1": {
+        "anomaly_score": 1.0807651134685774,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.24373788814261055,
+          "current": 1.066836160690384,
+          "temperature": 1.9317212915727373
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.392848,
+        "cdd_mean": 0.000703
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The suspicious nature is supported by the triggered features, but the overall anomaly score is not extremely high.",
+        "reason": "The current and temperature deviations are notable, but the voltage remains stable. The low priority count in DDP-downsampled features suggests that these deviations are not consistent across all data points, which could indicate transient issues rather than a persistent fault.",
+        "evidence": [
+          "current deviations",
+          "temperature deviations",
+          "stable voltage",
+          "low priority count in DDP-downsampled features"
+        ],
+        "level1_consistency": "PARTIALLY_CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 27.257032871246338,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The suspicious nature is supported by the triggered features, but the overall anomaly score is not extremely high.\",\n  \"reason\": \"The current and temperature deviations are notable, but the voltage remains stable. The low priority count in DDP-downsampled features suggests that these deviations are not consistent across all data points, which could indicate transient issues rather than a persistent fault.\",\n  \"evidence\": [\n    \"current deviations\",\n    \"temperature deviations\",\n    \"stable voltage\",\n    \"low priority count in DDP-downsampled features\"\n  ],\n  \"level1_consistency\": \"PARTIALLY_CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 27.257032871246338
+    },
+    {
+      "window": 38,
+      "start_row": 1900,
+      "end_row": 1949,
+      "level1": {
+        "anomaly_score": 1.1788525331468973,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.23183726411636738,
+          "current": 1.106083481027485,
+          "temperature": 2.1986368542968395
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.098117,
+        "cdd_mean": 0.001207
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The anomaly score is moderate, and the retained rows in DDP-downsampled features indicate no high or mid-priority issues.",
+        "reason": "The triggered features (current and temperature) show significant deviations, but the voltage deviation is not severe. The low priority count in DDP-downsampled features suggests that the issue might be transient or minor.",
+        "evidence": [
+          "Current and temperature deviations are significant",
+          "Voltage deviation is within a reasonable range",
+          "Low priority count in DDP-downsampled features"
+        ],
+        "level1_consistency": "PARTIALLY_CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 20.003741025924683,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The anomaly score is moderate, and the retained rows in DDP-downsampled features indicate no high or mid-priority issues.\",\n  \"reason\": \"The triggered features (current and temperature) show significant deviations, but the voltage deviation is not severe. The low priority count in DDP-downsampled features suggests that the issue might be transient or minor.\",\n  \"evidence\": [\n    \"Current and temperature deviations are significant\",\n    \"Voltage deviation is within a reasonable range\",\n    \"Low priority count in DDP-downsampled features\"\n  ],\n  \"level1_consistency\": \"PARTIALLY_CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 20.003741025924683
+    },
+    {
+      "window": 39,
+      "start_row": 1950,
+      "end_row": 1999,
+      "level1": {
+        "anomaly_score": 1.0962125109227197,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.283066525976027,
+          "current": 1.0899423368680008,
+          "temperature": 1.915628669924131
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.028107,
+        "cdd_mean": 0.00144
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The DDP-downsampled features indicate no high or mid priority issues, and the LOW priority count is 2, suggesting minor fluctuations.",
+        "reason": "The anomaly score is relatively high, but the deviations are not extreme. The retained rows show minor fluctuations in current and temperature, which could be due to normal operational variations.",
+        "evidence": [
+          "current deviation within a reasonable range",
+          "temperature deviation within a reasonable range",
+          "voltage deviation within a reasonable range",
+          "LOW priority count in DDP-downsampled features"
+        ],
+        "level1_consistency": "CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 20.921327590942383,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The DDP-downsampled features indicate no high or mid priority issues, and the LOW priority count is 2, suggesting minor fluctuations.\",\n  \"reason\": \"The anomaly score is relatively high, but the deviations are not extreme. The retained rows show minor fluctuations in current and temperature, which could be due to normal operational variations.\",\n  \"evidence\": [\n    \"current deviation within a reasonable range\",\n    \"temperature deviation within a reasonable range\",\n    \"voltage deviation within a reasonable range\",\n    \"LOW priority count in DDP-downsampled features\"\n  ],\n  \"level1_consistency\": \"CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 20.921327590942383
+    },
+    {
+      "window": 40,
+      "start_row": 2000,
+      "end_row": 2049,
+      "level1": {
+        "anomaly_score": 1.4509572045951058,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.41112720341627246,
+          "current": 1.0927406827006794,
+          "temperature": 2.8490037276683653
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.317055,
+        "cdd_mean": 0.0006
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within the expected range. The anomaly score is moderate, and the retained rows in DDP-downsampled features indicate no high or mid-priority issues.",
+        "reason": "The current and temperature deviations suggest potential operational issues, but the voltage remains stable. The low priority count in DDP-downsampled features does not indicate severe issues.",
+        "evidence": [
+          "current deviation",
+          "temperature deviation",
+          "stable voltage",
+          "low priority count in DDP-downsampled features"
+        ],
+        "level1_consistency": "PARTIALLY_CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 19.53387999534607,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within the expected range. The anomaly score is moderate, and the retained rows in DDP-downsampled features indicate no high or mid-priority issues.\",\n  \"reason\": \"The current and temperature deviations suggest potential operational issues, but the voltage remains stable. The low priority count in DDP-downsampled features does not indicate severe issues.\",\n  \"evidence\": [\n    \"current deviation\",\n    \"temperature deviation\",\n    \"stable voltage\",\n    \"low priority count in DDP-downsampled features\"\n  ],\n  \"level1_consistency\": \"PARTIALLY_CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 19.53387999534607
+    },
+    {
+      "window": 41,
+      "start_row": 2050,
+      "end_row": 2099,
+      "level1": {
+        "anomaly_score": 1.152347610887114,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.49256413166207025,
+          "current": 1.0911392296677298,
+          "temperature": 1.873339471331542
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.199233,
+        "cdd_mean": 0.000428
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within the expected range. The anomaly score is moderate, and the retained rows in DDP-downsampled data suggest limited variability.",
+        "reason": "The triggered features (current and temperature) indicate potential issues, but the voltage remains stable. The low number of retained rows in DDP-downsampling might indicate noise or a small sample size, which could affect the reliability of the anomaly score.",
+        "evidence": [
+          "Current and temperature deviations are observed",
+          "Voltage remains within baseline reference range",
+          "Low number of retained rows in DDP-downsampled data"
+        ],
+        "level1_consistency": "PARTIALLY_CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 20.45422863960266,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within the expected range. The anomaly score is moderate, and the retained rows in DDP-downsampled data suggest limited variability.\",\n  \"reason\": \"The triggered features (current and temperature) indicate potential issues, but the voltage remains stable. The low number of retained rows in DDP-downsampling might indicate noise or a small sample size, which could affect the reliability of the anomaly score.\",\n  \"evidence\": [\n    \"Current and temperature deviations are observed\",\n    \"Voltage remains within baseline reference range\",\n    \"Low number of retained rows in DDP-downsampled data\"\n  ],\n  \"level1_consistency\": \"PARTIALLY_CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 20.45422863960266
+    },
+    {
+      "window": 42,
+      "start_row": 2100,
+      "end_row": 2149,
+      "level1": {
+        "anomaly_score": 1.3263472118111297,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.4585078495111923,
+          "current": 1.0821827246454228,
+          "temperature": 2.4383510612767743
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.216609,
+        "cdd_mean": 0.000635
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The anomaly score is moderate, and the retained rows in DDP-downsampled features indicate limited data points, which may affect the reliability of the analysis.",
+        "reason": "The triggered features (current and temperature) show significant deviations, but the voltage deviation is within the baseline range. The low number of retained rows in DDP-downsampling suggests potential noise or insufficient data for a definitive diagnosis.",
+        "evidence": [
+          "Current and temperature deviations are significant",
+          "Voltage deviation is within baseline range",
+          "Low number of retained rows in DDP-downsampling"
+        ],
+        "level1_consistency": "PARTIALLY_CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 24.563925743103027,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The anomaly score is moderate, and the retained rows in DDP-downsampled features indicate limited data points, which may affect the reliability of the analysis.\",\n  \"reason\": \"The triggered features (current and temperature) show significant deviations, but the voltage deviation is within the baseline range. The low number of retained rows in DDP-downsampling suggests potential noise or insufficient data for a definitive diagnosis.\",\n  \"evidence\": [\n    \"Current and temperature deviations are significant\",\n    \"Voltage deviation is within baseline range\",\n    \"Low number of retained rows in DDP-downsampling\"\n  ],\n  \"level1_consistency\": \"PARTIALLY_CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 24.563925743103027
+    },
+    {
+      "window": 43,
+      "start_row": 2150,
+      "end_row": 2199,
+      "level1": {
+        "anomaly_score": 1.491065552367183,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.325495251467064,
+          "current": 1.0660532999357224,
+          "temperature": 3.081648105698762
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.384614,
+        "cdd_mean": 0.000476
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The anomaly score is moderate, and the retained rows indicate that the suspicious features are not consistently high.",
+        "reason": "The current and temperature deviations suggest potential operational issues, but the voltage remains stable. The low retention rate of DDP-downsampled data might indicate noise or transient events.",
+        "evidence": [
+          "current deviations",
+          "temperature deviations",
+          "stable voltage",
+          "moderate anomaly score",
+          "low DDP retention rate"
+        ],
+        "level1_consistency": "PARTIALLY_CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 19.415975332260132,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The anomaly score is moderate, and the retained rows indicate that the suspicious features are not consistently high.\",\n  \"reason\": \"The current and temperature deviations suggest potential operational issues, but the voltage remains stable. The low retention rate of DDP-downsampled data might indicate noise or transient events.\",\n  \"evidence\": [\n    \"current deviations\",\n    \"temperature deviations\",\n    \"stable voltage\",\n    \"moderate anomaly score\",\n    \"low DDP retention rate\"\n  ],\n  \"level1_consistency\": \"PARTIALLY_CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 19.415975332260132
+    },
+    {
+      "window": 44,
+      "start_row": 2200,
+      "end_row": 2249,
+      "level1": {
+        "anomaly_score": 1.535483104343885,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.33445092802104265,
+          "current": 1.0706061956558999,
+          "temperature": 3.201392189354713
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.098046,
+        "cdd_mean": 0.00057
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The suspicious nature is supported by the triggered features, but the overall anomaly score is not extremely high.",
+        "reason": "The current and temperature deviations are significant, indicating potential issues, but the voltage deviation is within a normal range. The low retention rate of DDP-downsampled features suggests that the suspicious window might not contain enough data points to conclusively identify a fault.",
+        "evidence": [
+          "current deviation",
+          "temperature deviation",
+          "moderate anomaly score",
+          "voltage within reference range"
+        ],
+        "level1_consistency": "PARTIALLY_CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "FURTHER_ANALYSIS",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 25.881635904312134,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within a reasonable range. The suspicious nature is supported by the triggered features, but the overall anomaly score is not extremely high.\",\n  \"reason\": \"The current and temperature deviations are significant, indicating potential issues, but the voltage deviation is within a normal range. The low retention rate of DDP-downsampled features suggests that the suspicious window might not contain enough data points to conclusively identify a fault.\",\n  \"evidence\": [\n    \"current deviation\",\n    \"temperature deviation\",\n    \"moderate anomaly score\",\n    \"voltage within reference range\"\n  ],\n  \"level1_consistency\": \"PARTIALLY_CONSISTENT\",\n  \"recommended_action\": \"FURTHER_ANALYSIS\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 25.881635904312134
+    },
+    {
+      "window": 45,
+      "start_row": 2250,
+      "end_row": 2299,
+      "level1": {
+        "anomaly_score": 1.4173749987038162,
+        "suspicious": true,
+        "triggered_features": [
+          "current",
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.3993669173443566,
+          "current": 1.0759449344304846,
+          "temperature": 2.7768131443366078
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.074672,
+        "cdd_mean": 0.001203
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Unknown",
+        "diagnosis": "The battery window shows deviations in current and temperature, but the voltage deviation is within the expected range. The anomaly score is moderate, and the retained rows indicate that the suspicious features are not consistently high.",
+        "reason": "The current and temperature deviations suggest potential issues, but the voltage remains stable. The low retention rate of DDP-downsampled features does not provide strong evidence for a specific fault.",
+        "evidence": [
+          "current deviations",
+          "temperature deviations",
+          "stable voltage",
+          "low DDP retention rate"
+        ],
+        "level1_consistency": "PARTIALLY_CONSISTENT",
+        "confidence": 0.7,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 19.19151020050049,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Unknown\",\n  \"diagnosis\": \"The battery window shows deviations in current and temperature, but the voltage deviation is within the expected range. The anomaly score is moderate, and the retained rows indicate that the suspicious features are not consistently high.\",\n  \"reason\": \"The current and temperature deviations suggest potential issues, but the voltage remains stable. The low retention rate of DDP-downsampled features does not provide strong evidence for a specific fault.\",\n  \"evidence\": [\n    \"current deviations\",\n    \"temperature deviations\",\n    \"stable voltage\",\n    \"low DDP retention rate\"\n  ],\n  \"level1_consistency\": \"PARTIALLY_CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.7\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 19.19151020050049
+    },
+    {
+      "window": 46,
+      "start_row": 2300,
+      "end_row": 2349,
+      "level1": {
+        "anomaly_score": 1.4288710219732936,
+        "suspicious": true,
+        "triggered_features": [
+          "temperature"
+        ],
+        "deviations": {
+          "voltage": 0.5750467455297098,
+          "current": 0.7605196672926288,
+          "temperature": 2.9510466530975425
+        }
+      },
+      "ddp": {
+        "original_rows": 50,
+        "retained_rows": 2,
+        "retention_percent": 4.0,
+        "vdd_mean": 0.015343,
+        "cdd_mean": 0.000281
+      },
+      "ai_result": {
+        "anomaly_level": "MEDIUM",
+        "fault_type": "Temperature Anomaly",
+        "diagnosis": "The battery temperature has shown a significant deviation from the baseline, which could indicate an environmental or operational issue.",
+        "reason": "The temperature feature is the only triggered feature with a deviation score of 2.95, which is the highest among the deviations reported.",
+        "evidence": [
+          "The temperature feature is significantly deviating from the baseline.",
+          "No other features (voltage, current) show deviations that are as pronounced as the temperature deviation."
+        ],
+        "level1_consistency": "CONSISTENT",
+        "confidence": 0.8,
+        "recommendation": "MONITOR",
+        "json_parsed": true,
+        "json_parse_error": null,
+        "inference_seconds": 21.71086287498474,
+        "raw_response": "{\n  \"anomaly_level\": \"MEDIUM\",\n  \"fault_type\": \"Temperature Anomaly\",\n  \"diagnosis\": \"The battery temperature has shown a significant deviation from the baseline, which could indicate an environmental or operational issue.\",\n  \"reason\": \"The temperature feature is the only triggered feature with a deviation score of 2.95, which is the highest among the deviations reported.\",\n  \"evidence\": [\n    \"The temperature feature is significantly deviating from the baseline.\",\n    \"No other features (voltage, current) show deviations that are as pronounced as the temperature deviation.\"\n  ],\n  \"level1_consistency\": \"CONSISTENT\",\n  \"recommended_action\": \"MONITOR\",\n  \"confidence\": 0.8\n}"
+      },
+      "model": {
+        "name": "Qwen2.5 7B",
+        "runtime": "Ollama",
+        "local": true
+      },
+      "inference_seconds": 21.71086287498474
+    }
+  ]
+}

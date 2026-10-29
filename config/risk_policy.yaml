@@ -1,0 +1,34 @@
+# Research/software policy simulation only.
+# This is NOT a certified automotive BMS safety controller.
+states:
+  - NORMAL
+  - WARNING
+  - CHARGING_RESTRICTION
+  - POWER_LIMITATION
+  - PROTECTION
+
+default:
+  risk_state: NORMAL
+  risk_action: "No intervention; continue monitoring."
+
+rules:
+  - name: placeholder_demonstration
+    fault_types: [PLACEHOLDER_ANOMALY]
+    risk_state: WARNING
+    risk_action: "Placeholder warning: review the triggered window."
+  - name: high_confidence_critical
+    severities: [CRITICAL]
+    min_confidence: 0.80
+    risk_state: PROTECTION
+    risk_action: "Simulation only: enter protection state."
+  - name: high_confidence_high
+    severities: [HIGH]
+    min_confidence: 0.80
+    risk_state: POWER_LIMITATION
+    risk_action: "Simulation only: limit available power."
+  - name: medium_severity
+    severities: [MEDIUM]
+    min_confidence: 0.60
+    risk_state: CHARGING_RESTRICTION
+    risk_action: "Simulation only: restrict charging."
+

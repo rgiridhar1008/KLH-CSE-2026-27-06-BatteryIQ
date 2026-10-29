@@ -1,0 +1,58 @@
+{
+  "model_name": "LOCAL QWEN2.5-1.5B-INSTRUCT GGUF DIAGNOSTIC MODEL",
+  "windows_processed": 3,
+  "qwen_calls": 3,
+  "model_load_seconds": 1.3539162000015494,
+  "average_inference_seconds": 21.107046466667573,
+  "total_inference_seconds": 63.32113940000272,
+  "json_parsing_successes": 3,
+  "json_parsing_failures": 0,
+  "results": [
+    {
+      "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+      "start_sample": 1000,
+      "end_sample": 1049,
+      "response": {
+        "anomaly_level": "LOW",
+        "reason": "The observed values are within the reference range for all features, indicating no significant deviation from the baseline.",
+        "evidence": [
+          "All feature values are within the expected range based on the reference statistics."
+        ]
+      },
+      "json_parsed": true,
+      "json_parse_error": null,
+      "inference_seconds": 19.388656700000865
+    },
+    {
+      "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+      "start_sample": 1050,
+      "end_sample": 1099,
+      "response": {
+        "anomaly_level": "LOW",
+        "reason": "The observed V_mean is within the reference range and does not indicate a significant anomaly.",
+        "evidence": [
+          "The V_mean value is 3.344392659, which is within the reference range of 3.3160570227875006 \u00b1 0.02814026409252852."
+        ]
+      },
+      "json_parsed": true,
+      "json_parse_error": null,
+      "inference_seconds": 26.189311800000723
+    },
+    {
+      "source_file": "real_world_02-03/battery_01_cells_001-008_t_00000-03999.csv",
+      "start_sample": 1100,
+      "end_sample": 1149,
+      "response": {
+        "anomaly_level": "LOW",
+        "reason": "The observed values are within the reference range for all features, indicating no significant deviation from the baseline.",
+        "evidence": [
+          "All feature values are within the expected range based on the reference statistics."
+        ]
+      },
+      "json_parsed": true,
+      "json_parse_error": null,
+      "inference_seconds": 17.743170900001132
+    }
+  ],
+  "interpretation": "This is a three-window local-Qwen smoke test. It makes no fault, accuracy, recall, or physical-severity claim."
+}
